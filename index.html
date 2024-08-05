@@ -9,9 +9,9 @@
 </head>
 <body>
     <!--navbar-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-transparent">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">PeterParker</a>
+          <a class="navbar-brand ms-5" href="#"><h2><i>PeterParker</i></h2></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -36,85 +36,86 @@
     <!--hero section-->
     <section class="container col-12 my-5 pt-5 hero">
         <div class="row align-items-center">
-            <div class="col-12 col-md-6 hero__div">
+            <div class="col-12 col-md-6">
                 <img src="./assets/img/developer.svg" alt="foto perfil peter parker" class="img-fluid">
             </div>
-            <div class="col-12 col-md-6 hero__div">
+            <div class="col-12 col-md-6">
                 <h1 class="hero__title">Soy Peter Parker</h1>
                 <h2 class="hero__subtitle">Desarrollador FrontEnd</h2>
                 <p class="hero__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis a debitis unde cupiditate distinctio quos ea ab maiores explicabo quis recusandae eaque delectus et, esse magnam error! Officia, officiis? Fuga?</p>
-                <button type="button" class="btn btn-primary mt-3">Contactame</button>
+                <button type="button" class="btn mt-3 button text-white px-5">Contactame</button>
             </div>
         </div>
     </section>
     <!--mis habilidades-->
-    <section class="container col-12 my-5 pt-5">
-        <h2 class="text-center">Mis habilidades</h2>
+    <section class="container col-12 my-5 pt-5 skill">
+        <h2 class="text-center skill__title">Mis habilidades</h2>
         <div class="row mt-5">
             <div class="row col-6">
-              <div class="skill col-md col-12">
-                <i class="fa-brands fa-html5 skill__icon" style="color: #e68c65;"></i>
-                <span class="skill__text">HTML</span>
+              <div class="col-md col-12 p-1 d-flex">
+                <i id="html" class="fa-brands fa-html5 skill__icon"></i>
+                <span class="skill__text ms-2">HTML</span>
               </div>
-              <div class="skill col-md col-12">
-                <i class="fa-brands fa-html5" style="color: #e68c65;"></i>
-                <span>HTML</span>
+              <div class="col-md col-12 p-1 d-flex">
+                <i id="css" class="fa-brands fa-css3-alt skill__icon"></i>
+                <span class="skill__text ms-2">CSS</span>
               </div>
-              <div class="skill col-md col-12">
-                <i class="fa-brands fa-html5" style="color: #e68c65;"></i>
-                <span>HTML</span>
+              <div class="col-md col-12 p-1 d-flex">
+                <i id="sass" class="fa-brands fa-sass skill__icon"></i>
+                <span class="skill__text ms-2">Sass</span>
               </div>
-              <div class="skill col-md col-12">
-                <i class="fa-brands fa-html5" style="color: #e68c65;"></i>
-                <span>HTML</span>
+              <div class="col-md col-12 p-1 d-flex">
+                <i id="bootstrap" class="fa-brands fa-bootstrap skill__icon"></i>
+                <span class="skill__text ms-2">Bootstrap</span>
               </div>
             </div>
             <div class="row col-6">
-              <div class="skill col-md col-12">
-              <i class="fa-brands fa-html5" style="color: #e68c65;"></i>
-                <span>HTML</span>
+              <div class="col-md col-12 p-1 d-flex">
+                <i id="git" class="fa-brands fa-git-alt skill__icon"></i>
+                <span class="skill__text ms-2">Git</span>
               </div>
-              <div class="skill col-md col-12">
-                <i class="fa-brands fa-html5" style="color: #e68c65;"></i>
-                <span>HTML</span>
+              <div class="col-md col-12 p-1 d-flex">
+                <i id="github" class="fa-brands fa-github skill__icon"></i>
+                <span class="skill__text ms-2">Github</span>
               </div>
-              <div class="skill col-md col-12">
-                <i class="fa-brands fa-html5" style="color: #e68c65;"></i>
-                <span>HTML</span>
+              <div class="col-md col-12 p-1 d-flex">
+                <i id="js" class="fa-brands fa-js skill__icon"></i>
+                <span class="skill__text ms-2">Javascript</span>
               </div>
-              <div class="skill col-md col-12">
-                <i class="fa-brands fa-html5" style="color: #e68c65;"></i>
-                <span>HTML</span>
+              <div class="col-md col-12 p-1 d-flex">
+                <i id="vue" class="fa-brands fa-vuejs skill__icon"></i>
+                <span class="skill__text ms-2">Vue</span>
               </div>
             </div>
         </div>
     </section>
     <!--mis proyectos-->
-    <section class="container col-12 my-5 pt-5">
-      <h2 class="text-center">Mis proyectos</h2>
+    <section class="container col-12 my-5 pt-5 projects">
+      <h2 class="text-center project__title">Mis proyectos</h2>
       <div class="row mt-5">
         <div class="row col-md-6 col-6">
           <div class="col-md">
             <img src="./assets/img/meetcoffee.png" alt="meet & coffee" class="img-fluid">
-            <h3 >meet & coffee</h3>
+            <h3 class="projects__subtitle my-1">Meet & Coffee</h3>
           </div>
           <div class="col-md">
             <img src="./assets/img/meetcoffee.png" alt="meet & coffee" class="img-fluid">
-            <h3>meet & coffee</h3>
+            <h3 class="projects__subtitle my-1">Meet & Coffee</h3>
           </div>
         </div>
         <div class="row col-md-6 col-6">
           <div class="col-md">
             <img src="./assets/img/meetcoffee.png" alt="meet & coffee" class="img-fluid">
-            <h3 >meet & coffee</h3>
+            <h3 class="projects__subtitle my-1">Meet & Coffee</h3>
           </div>
           <div class="col-md">
             <img src="./assets/img/meetcoffee.png" alt="meet & coffee" class="img-fluid">
-            <h3>meet & coffee</h3>
+            <h3 class="projects__subtitle my-1">Meet & Coffee</h3>
           </div>
         </div>
       </div>
     </section>
+    <!--footer-->
     <footer class="container">
       <h2 class="text-center">Contactame</h2>
       <div class="row my-5">
@@ -135,26 +136,26 @@
             <textarea class="form-control" placeholder="Escribe tu comentario" id="floatingTextarea2" style="height: 100px"></textarea>
             <label for="floatingTextarea2">Escribe tu comentario</label>
           </div>
-          <button type="submit" class="btn btn-primary mt-4">Enviar</button>
+          <button type="submit" class="btn button px-5 text-white mt-4">Enviar</button>
         </form>
         <div class="col-12 col-md-6">
-          <div class="col-6 col-md-6">
+          <div class="col-6 col-md-6 my-3">
             <i class="fa-solid fa-phone"></i>
             <span>+56999887766</span>
           </div>
-          <div class="col-6 col-md-6">
+          <div class="col-6 col-md-6 my-3">
             <i class="fa-solid fa-envelope"></i>
             <span>tuemail@gmail.com</span>
           </div>
-          <div class="col-6 col-md-6">
+          <div class="col-6 col-md-6 my-3">
             <i class="fa-brands fa-linkedin"></i>
             <span>tulinkedin</span>
           </div>
-          <div class="col-6 col-md-6">
+          <div class="col-6 col-md-6 my-3">
             <i class="fa-brands fa-github"></i>
             <span>tu github</span>
           </div>
-          <div class="col-6 col-md-6">
+          <div class="col-6 col-md-6 my-3">
             <i class="fa-brands fa-instagram"></i>
             <span>tu instagram</span>
           </div>
