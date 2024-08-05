@@ -1,0 +1,10 @@
+.hero{
+    &__title{
+        color: $title-color;
+        font-weight: 700;
+    }
+    &__subtitle{
+        color: $subtitle-color;
+        font-weight: 500;
+    }
+}
