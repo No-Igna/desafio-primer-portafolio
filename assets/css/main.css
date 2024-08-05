@@ -45,8 +45,76 @@ table {
 }
 
 input {
-  -webkit-appearance: none;
   border-radius: 0;
+}
+
+.skill__title {
+  color: #1D3557;
+  font-weight: 500;
+}
+.skill__icon {
+  font-size: 3rem;
+}
+.skill__text {
+  font-size: 1rem;
+  align-self: center;
+}
+
+#html {
+  color: #DD4B25;
+}
+
+#css {
+  color: #379AD6;
+}
+
+#sass {
+  color: #CD669A;
+}
+
+#bootstrap {
+  color: #533B78;
+}
+
+#git {
+  color: #F05030;
+}
+
+#github {
+  color: #000;
+}
+
+#js {
+  color: #E8D44D;
+}
+
+#vue {
+  color: #3FB27F;
+}
+
+.projects__title {
+  color: #1D3557;
+  font-weight: 700;
+}
+.projects__subtitle {
+  color: #1D3557;
+}
+
+.button {
+  background-color: #1D3557 !important;
+}
+
+.hero__title {
+  color: #1D3557;
+  font-weight: 700;
+}
+.hero__subtitle {
+  color: #457B9D;
+  font-weight: 500;
+}
+
+body {
+  background-color: #F1FAEE !important;
 }
 
 /*!

@@ -5,11 +5,12 @@
 // pages
 // themes
 // vendors
-
+@import 'abstracts/variables';
 @import 'base/reset';
 @import 'base/typography';
 @import 'components/skill';
 @import 'components/projects';
+@import 'components/button';
 @import 'layout/hero';
-@import 'layout/nav';
+@import 'pages/index';
 @import 'vendors/bootstrap';
